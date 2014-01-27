@@ -1,0 +1,28 @@
+{
+  "name": "sweet-jsx",
+  "version": "0.0.0",
+  "description": "Use JSX compiler from inside Sweet.js macro",
+  "main": "index.js",
+  "dependencies": {
+    "react-tools": "~0.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andreypopp/sweet-jsx"
+  },
+  "keywords": [
+    "sweet-macros",
+    "jsx",
+    "react"
+  ],
+  "author": "Andrey Popp <8mayday@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreypopp/sweet-jsx/issues"
+  },
+  "homepage": "https://github.com/andreypopp/sweet-jsx"
+}
