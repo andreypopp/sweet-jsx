@@ -2,7 +2,7 @@
   "name": "sweet-jsx",
   "version": "0.1.0",
   "description": "Use JSX compiler from inside Sweet.js macro",
-  "main": "index.js",
+  "main": "index.sjs",
   "dependencies": {
     "react-tools": "~0.8.0"
   },
