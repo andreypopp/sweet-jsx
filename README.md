@@ -10,4 +10,14 @@ it down to JS with respect to hygiene. So you can write JSX like that:
       return jsx `<div>The answer is {x}</div>`;
     }
 
+It even allows to use other macros inside interpolations:
+
+    macro plusone {
+      rule { $x:expr } => { $x + 1 }
+    }
+
+    var dom = jsx `
+      <div>{plusone 41}</div>
+    `
+
 [jsx]: http://facebook.github.io/react/docs/getting-started.html
