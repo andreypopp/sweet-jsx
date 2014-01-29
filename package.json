@@ -6,7 +6,10 @@
   "dependencies": {
     "react-tools": "~0.8.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "semver": "~2.2.1",
+    "sweet.js": "~0.4.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
