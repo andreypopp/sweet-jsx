@@ -1,6 +1,6 @@
 {
   "name": "sweet-jsx",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use JSX compiler from inside Sweet.js macro",
   "main": "index.sjs",
   "dependencies": {
