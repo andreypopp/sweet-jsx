@@ -8,11 +8,8 @@ install link:
 clean:
 	rm -rf node_modules/ specs/client.bundle.js
 
-test: spec.js
-	@$(BIN)/mocha -b -R spec spec.js
-
-spec.js: spec.sjs
-	@$(BIN)/sjs -m sweet-bdd -m ./index.sjs $< > $@
+test:
+	@$(BIN)/sjs -r -m ./index.sjs ./example.sjs > /dev/null
 
 release-patch: test
 	@$(call release,patch)
